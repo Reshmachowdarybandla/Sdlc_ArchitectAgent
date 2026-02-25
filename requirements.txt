@@ -1,0 +1,16 @@
+# Core Agent Framework
+google-adk
+
+# AI and LLM Connectivity
+google-genai
+
+# Document Processing
+python-docx
+markdown
+
+# Utilities and API Integration
+requests
+python-dotenv
+
+# Diagramming (Optional for local rendering)
+graphviz

@@ -1,0 +1,30 @@
+# --- Environment & Secrets ---
+# Never upload your API keys or Project IDs
+.env
+
+# --- Python Environment ---
+# Keeps the heavy virtual environment folders out of Git
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- Google ADK Specifics ---
+# This folder stores local session databases and temporary artifacts
+.adk/
+
+# --- Logs ---
+# AI agents generate many logs during testing
+*.log
+agents_log/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Templates & Output (Optional) ---
+# If you want to keep your templates private, uncomment the line below
+# templates/
